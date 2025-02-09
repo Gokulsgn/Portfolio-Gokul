@@ -1,0 +1,98 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* About Me Section */
+.about-section {
+  background: linear-gradient(45deg, #f6d02f, #ffad33); /* Dark yellow gradient */
+  color: black;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* Add smooth hover effect */
+}
+
+.profile-pic:hover {
+  transform: scale(1.1); /* Hover effect to scale the profile picture */
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  color: black;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.skills {
+  background-color: black; /* Dark background for skills section */
+  color: yellow; /* Yellow text */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.skills h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills ul li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+/* Hover Effects */
+.about-text p:hover {
+  color: red; /* Hover effect for the paragraph */
+}
+
+.skills ul li:hover {
+  color: red; /* Hover effect for skills list */
+}
+
+/* Button Styles for CTA */
+.cta-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: red;
+  color: white;
+}
